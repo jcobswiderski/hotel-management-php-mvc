@@ -1,0 +1,104 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+    width: 80%;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="password"],
+form input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    background-color: #c7b321;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #b09d1a;
+}
+
+img {
+    width: 40%;
+    height: auto;
+    max-height: 300px;
+    margin-bottom: 15px;
+}
+
+.form-error-list{
+    color: red !important;
+}
+.back-button {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ff6666;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-left: auto;
+}
+
+.back-button:hover {
+    background-color: #cc0000;
+}
+
+.back-button::before {
+    content: '✕';
+}
+
+form select {
+    appearance: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+form select option {
+    padding: 8px;
+    background-color: #fff;
+    color: #333;
+}

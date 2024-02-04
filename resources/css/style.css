@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.home-table input[type="submit"] {
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.home-table input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.welcome-message {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.logout-form {
+    display: flex;
+    align-items: flex-start;
+}
+
+.logout-button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.logout-button:hover {
+    background-color: #45a049;
+}
+
+.actionButton {
+    width: 100%;
+    background: #c7b321;
+}
